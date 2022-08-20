@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/static/js/main.db07d8d9.js",
+    "static/media/airbnb_logo.png": "/static/media/airbnb_logo.396bbcc370f603722659.png",
+    "index.html": "/index.html",
+    "main.db07d8d9.js.map": "/static/js/main.db07d8d9.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.db07d8d9.js"
+  ]
+}
