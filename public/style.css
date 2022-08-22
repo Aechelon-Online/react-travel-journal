@@ -10,12 +10,25 @@
     margin: 0;
 }
 
+.full-card {
+    margin: 10px;
+    box-shadow: 1px 1px 3px;
+    border-radius: 10px;
+}
+
 .navbar {
     padding: 10px;
+    margin: 0px;
     display: flex;
     justify-content: center;
     background-color: rgb(251, 58, 58);
     margin-bottom: 30px;
+}
+
+.nav-border {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .navbar--text {

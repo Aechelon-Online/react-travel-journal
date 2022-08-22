@@ -16,8 +16,10 @@ export default function App(){
     })
 
     return (
-        <div>
-            <Navbar />
+        <div className="full-card">
+            <div className="nav-border">
+                <Navbar />
+            </div>
             {cards}
         </div>
     )
