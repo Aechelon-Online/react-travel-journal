@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/static/js/main.db07d8d9.js",
-    "static/media/airbnb_logo.png": "/static/media/airbnb_logo.396bbcc370f603722659.png",
-    "index.html": "/index.html",
-    "main.db07d8d9.js.map": "/static/js/main.db07d8d9.js.map"
+    "main.js": "./static/js/main.2dde375e.js",
+    "static/media/globe-logo-white.png": "./static/media/globe-logo-white.e7525e5ff08181a69cbc.png",
+    "index.html": "./index.html",
+    "main.2dde375e.js.map": "./static/js/main.2dde375e.js.map"
   },
   "entrypoints": [
-    "static/js/main.db07d8d9.js"
+    "static/js/main.2dde375e.js"
   ]
 }

@@ -1,65 +1,141 @@
+:root {
+    --tag-size: 12px;
+    --location-size: 0.6rem;
+}
+
+
 * {
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
-
-body {
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
-.airbnb-logo {
-    height: 70px;
+.full-card {
+    margin: 10px;
+    box-shadow: 1px 1px 3px;
+    border-radius: 10px;
+}
+
+.navbar {
+    padding: 10px;
+    margin: 0px;
     display: flex;
-    padding: 20px 36px;
+    justify-content: center;
+    background-color: rgb(251, 58, 58);
+    margin-bottom: 30px;
 }
 
-nav {
-    box-shadow: 0 3px 7.5px rgba(0, 0, 0, 0.1);
+.nav-border {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
-.hero-section {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+.navbar--text {
+    color: white;
+    display: inline;
+    font-size: 1rem;
+    padding-left: 5px;
+    padding-top: 10px;
 }
 
-.hero-image {
-    width: 400px;
-    align-self: center;
-}
-
-.hero-header {
-    margin-bottom: 16px;
-    font-size: 2rem;
-    font-weight: 400;
-}
-
-.hero-text {
-    margin: 0;
-}
-
-.hero-header, .hero-text {
-    width: 65%;
+.earth-logo {
+    width: 30px;
 }
 
 .card {
-    width: 175px;
-    font-size: 12px;
+    display: flex;
+    margin: 10px 0px 0px 20px;
+    align-items: center;
+}
+
+.card--image_container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5%;
+    width: 125px;
+    height: 170px;
+    overflow: hidden;
 }
 
 .card--image {
-    width: 100%;
-    border-radius: 9px;
+    width: auto;
+    height: 170px;
 }
 
-.card--star {
-    height: 14px;
+.card--textinfo {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 144px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
-.bold {
-    font-weight: bold;
+
+.card--header {
+    display: flex;
+    flex-direction: column;
 }
 
-.gray {
-    color: #919191;
+.card--tag-location {
+    display: flex;
+}
+
+.card--title {
+    font-size: 1.35rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.card--text {
+    display: flex;
+    flex-direction: column;
+}
+
+.card--dates {
+    font-size: 0.6rem;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+}
+
+.card--description {
+    margin-top: 5px;
+    font-size: 0.65rem;
+}
+
+.tag {
+    margin-top: 2px;
+    width: var(--tag-size);
+    height: var(--tag-size);
+}
+
+.location {
+    margin-left: 3px;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    font-size: var(--location-size);
+}
+
+.maps-link {
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: var(--location-size);
+}
+
+a {
+    color: #00000071;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.cards-list {
+    width: 100vw;
+    height: 100vh;
 }
