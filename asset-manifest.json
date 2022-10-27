@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/react-travel-journal/static/js/main.d29b5df2.js",
+    "static/media/globe-logo-white.png": "/react-travel-journal/static/media/globe-logo-white.e7525e5ff08181a69cbc.png",
+    "index.html": "/react-travel-journal/index.html",
+    "main.d29b5df2.js.map": "/react-travel-journal/static/js/main.d29b5df2.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d29b5df2.js"
+  ]
+}
